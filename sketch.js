@@ -1336,8 +1336,6 @@ function ensureGenerationStarted() {
   requestMusicAsync(generationToken, generationPrompt, generatedSequence);
 }
 
-const MY_BACKEND_URL = "http://localhost:8080/api";
-
 async function requestMusicAsync(token, prompt, sequence) {
   if (token !== generationToken) return;
 
