@@ -374,7 +374,7 @@ function drawPage1() {
   textStyle(NORMAL);
   textSize(15);
   fill(112, 120, 132);
-  text("Made by Team 듣보", BASE_W / 2, 225);
+  text("Team 듣보", BASE_W / 2, 225);
 
   textStyle(BOLD);
   textSize(24);
